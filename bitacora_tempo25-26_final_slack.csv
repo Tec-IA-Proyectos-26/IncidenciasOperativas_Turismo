@@ -1,0 +1,255 @@
+Marca de tiempo,Status,Status viaje,Tipo incidente,Ref. Tourplan,Agencia,Proveedor,Servicio,Impacto,PAX PIDIÓ CAMBIO/CXL?
+"Nov 11, 2025, 6:16:55 PM",En proceso,En tránsito,Modificación,WPFI106312,Agencia 6,P-007,"Day Trip Lago del Desierto Trek & boat - Shared, self-guided",Medio,
+"Nov 11, 2025, 6:29:34 PM",En proceso,Post-viaje,Queja,WPFI109113,Agencia 8,G-003,Trek Laguna Torre,Bajo,
+"Nov 11, 2025, 7:56:21 PM",En proceso,En tránsito,Informativo,WPFI107475,Agencia 2,,,Medio,SI/NO
+"Nov 12, 2025, 2:37:15 PM",Resuelto,En tránsito,Informativo,WPFI107280,Agencia 2,G-009,,Bajo,SI/NO
+,En proceso,En tránsito,Modificación,WPFI108406,Agencia 2,"P-012, P-013",Kayak en Calafate,Medio,NO
+"Nov 14, 2025, 6:53:48 PM",Resuelto,En tránsito,Cancelación,WPFI109561,Agencia 3,G-001,Trek Laguna de los Tres SIB ,Bajo,
+"Nov 17, 2025, 11:06:07 AM",Pendiente,En tránsito,Informativo,WPFI109335,Agencia 2,,,Bajo,SI
+"Nov 17, 2025, 11:19:06 AM",Pendiente,En tránsito,Cancelación,WPFI105372,Agencia 2,P-004,"Excursion Moreno Glacier, Boat Ride and Trek",Medio,NO
+"Nov 17, 2025, 12:20:36 PM",En proceso,En tránsito,Cancelación,WPFI106054,Agencia 2,P-004,"Excursion Moreno Glacier, Boat Ride and Trek",Medio,NO
+"Nov 17, 2025, 12:27:23 PM",En proceso,En tránsito,Cancelación,WPFI109771,Agencia 1,G-005,Trek Laguna Torre SIB,Medio,
+"Nov 17, 2025, 12:35:40 PM",En proceso,En tránsito,Cancelación,WPFI108013,Agencia 9,G-005,Trek Laguna Torre SIB,Medio,
+"Nov 17, 2025, 12:41:23 PM",En proceso,En tránsito,Cancelación,WPFI107082,Agencia 10,G-006,Trek Laguna Torre - Private guide,Medio,
+"Nov 17, 2025, 12:50:42 PM",En proceso,En tránsito,Modificación,WPFI106170,Agencia 2,"P-001, P-016, G-011",Trek Laguna Torre - Private guide + 	Transfer El Chaltén/El Calafate - Private,Alto,NO
+"Nov 17, 2025, 1:35:34 PM",Resuelto,En tránsito,Modificación,WPFI108119,Agencia 11,P-011,Transfer El Chaltén/El Calafate - Private,Medio,
+"Nov 17, 2025, 1:59:45 PM",En proceso,En tránsito,Cancelación,WPFI104051,Agencia 4,"G-009, P-001",Trek Laguna de Los Tres - Private guide & private transport,Medio,
+"Nov 17, 2025, 2:10:14 PM",En proceso,En tránsito,Modificación,WPFI109276,Agencia 3,G-010,Trek Laguna Torre - Private guide,Medio,
+"Nov 17, 2025, 2:16:45 PM",En proceso,En tránsito,Cancelación,WPFI107677,Agencia 2,P-010,Transfer El Chaltén/Río Eléctrico bridge - Shared,Bajo,NO
+"Nov 17, 2025, 2:23:58 PM",En proceso,En tránsito,Cancelación,WPFI109553,Agencia 13,G-004,Trek Mirador Torre - Private guide,Medio,
+"Nov 17, 2025, 2:44:02 PM",Resuelto,En tránsito,Cancelación,WPFI109398,Agencia 12,"G-012, P-009",Trek Laguna Capri ,Medio,
+"Nov 17, 2025, 2:47:36 PM",En proceso,En tránsito,Cancelación,WPFI108853,Agencia 14,P-014,Day Trip Vespignani - Boat ride & shared transport,Medio,
+"Nov 18, 2025, 10:23:12 PM",Resuelto,En tránsito,Informativo,WPFI108397,Agencia 15,P-001,,Bajo,
+"Nov 19, 2025, 4:13:17 PM",Resuelto,En tránsito,Cancelación,WPFI106782,Agencia 3,,,Bajo,
+"Nov 20, 2025, 11:05:05 PM",Pendiente,En tránsito,Cancelación,WPFI109225,Agencia 5,,Trek Laguna de los Tres SIB ,Bajo,
+"Nov 23, 2025, 4:46:15 PM",Resuelto,En tránsito,Cancelación,WPFI108720,Agencia 2,,,Bajo,SI
+"Nov 24, 2025, 8:02:24 PM",Resuelto,En tránsito,Cancelación,WPFI108608,Agencia 2,,,Bajo,SI
+"Nov 25, 2025, 6:42:14 PM",Pendiente,Post-viaje,Informativo,WPFI107760,Agencia 11,,,Bajo,
+"Nov 25, 2025, 7:19:55 PM",En proceso,En tránsito,Modificación,WPFI109362,Agencia 11,,Trek Laguna de los Tres SIB ,Medio,
+"Nov 26, 2025, 12:48:33 PM",En proceso,En tránsito,Modificación,WPFI108843,Agencia 5,"P-010, G-006, G-002",Trek Laguna de los Tres SIB ,Bajo,
+"Nov 26, 2025, 1:18:47 PM",Resuelto,En tránsito,Modificación,WPFI105256,Agencia 2,"P-001, G-009",Trek Laguna de Los Tres - Private guide & private transport,Bajo,SI
+"Nov 27, 2025, 10:29:46 PM",Pendiente,En tránsito,Cancelación,WPFI108113,Agencia 2,P-009,Box lunch,Bajo,SI
+"Nov 30, 2025, 10:44:00 AM",Resuelto,En tránsito,Cancelación,WPFI107287,Agencia 2,"P-010, G-002",Trek Laguna de los Tres SIB ,Bajo,SI
+"Nov 30, 2025, 5:35:42 PM",Resuelto,En tránsito,Informativo,WPFI107287,Agencia 2,,Trek Laguna de los Tres SIB ,Bajo,SI
+"Nov 30, 2025, 7:07:26 PM",En proceso,En tránsito,Informativo,WPFI107304,Agencia 2,P-025,Ice trek Moreno Glacier,Bajo,SI
+"Dec 1, 2025, 11:21:41 AM",Pendiente,Post-viaje,Queja,WPFI108590,Agencia 11,P-007,"Day Trip Lago del Desierto Trek & boat - Shared, self-guided",Medio,
+"Dec 1, 2025, 4:40:55 PM",Resuelto,En tránsito,Cancelación,WPFI107414,Agencia 2,P-007,Kayak Lago del Desierto con traslado privado,Bajo,SI
+"Dec 3, 2025, 3:07:00 PM",Resuelto,En tránsito,Cancelación,WPFI107158,Agencia 2,G-014,Trek Laguna Torre,Bajo,SI
+"Dec 4, 2025, 2:59:23 PM",En proceso,En tránsito,Cancelación,WPFI107351,Agencia 4,"G-017, P-010",Trek Laguna de los Tres SIB ,Bajo,
+"Dec 5, 2025, 9:28:58 PM",Resuelto,En tránsito,Modificación,WPFI107119,Agencia 12,,Entradas al Parque Nacional,Bajo,
+"Dec 7, 2025, 11:47:02 AM",Resuelto,En tránsito,Cancelación,WPFI107425,Agencia 2,G-007,Trek Laguna Torre SIB,Bajo,SI
+"Dec 7, 2025, 4:13:35 PM",En proceso,En tránsito,Cancelación,WPFI109554,Agencia 11,,Trek Laguna de los Tres SIB ,Medio,
+"Dec 7, 2025, 4:24:18 PM",Resuelto,En tránsito,Informativo,WPFI106055,Agencia 4,,Entradas al Parque Nacional,Bajo,
+"Dec 7, 2025, 4:54:11 PM",Resuelto,En tránsito,Informativo,WPGR109435,Agencia 16,,Trek Laguna de Los Tres - Private guide & private transport,Bajo,
+"Dec 7, 2025, 5:52:45 PM",Resuelto,En tránsito,Informativo,WPFI108443,Agencia 2,,,Medio,NO
+"Dec 7, 2025, 8:17:28 PM",Resuelto,En tránsito,Modificación,WPFI106361,Agencia 2,,,Bajo,SI
+"Dec 8, 2025, 9:22:31 PM",Resuelto,En tránsito,Informativo,WPFI108087,Agencia 11,,Box lunch,Bajo,
+"Dec 10, 2025, 3:19:08 PM",En proceso,En tránsito,Modificación,WPFI106543,Agencia 4,"P-010, P-009","Transfer El Chaltén/Río Eléctrico bridge - Shared, Box Lunch",Bajo,
+"Dec 10, 2025, 11:49:05 PM",En proceso,En tránsito,Modificación,WPFI108731,Agencia 2,,,Medio,SI
+"Dec 11, 2025, 12:48:27 PM",Resuelto,En tránsito,Cancelación,WPFI109378,Agencia 2,P-015,Traslado Puerto - Aeropuerto USH,Medio,SI
+"Dec 11, 2025, 4:37:59 PM",Pendiente,En tránsito,Cancelación,WPFI107169,Agencia 11,"P-010, Vianda, Guias","Trek Laguna de Los Tres - Private guide & private transport, Box lunch",Alto,
+"Dec 11, 2025, 8:05:46 PM",Resuelto,Post-viaje,Cancelación,WPFI110098,Agencia 11,G-013,Trek Laguna Torre SIB,Bajo,
+"Dec 11, 2025, 8:18:32 PM",Resuelto,En tránsito,Modificación,WPFI109968,Agencia 11,G-014,Trek Laguna de los Tres SIB ,Medio,
+"Dec 14, 2025, 3:15:30 PM",En proceso,En tránsito,Cancelación,WPFI110097,Agencia 12,,,Medio,
+"Dec 15, 2025, 9:51:41 PM",En proceso,En tránsito,Modificación,WPFI108393,Agencia 2,,,Bajo,SI
+"Dec 16, 2025, 12:39:20 PM",Resuelto,En tránsito,Cancelación,WPFI109649,Agencia 2,G-002,Trek Laguna Torre SIB,Bajo,SI
+"Dec 21, 2025, 2:43:50 PM",Resuelto,En tránsito,Informativo,WPFI110034,Agencia 23,P-016,Transfer El Chaltén - Aeropuerto,Medio,
+"Dec 21, 2025, 10:05:02 PM",Resuelto,En tránsito,Cancelación,WPFI109152,Agencia 2,,,Bajo,SI
+"Dec 21, 2025, 10:55:04 PM",Resuelto,En tránsito,Informativo,WPFI107927,Agencia 11,,,Bajo,
+"Dec 23, 2025, 4:12:24 PM",En proceso,En tránsito,Cancelación,WPFI106700,Agencia 2,,,Bajo,SI
+"Dec 25, 2025, 2:12:37 PM",Resuelto,En tránsito,Cancelación,WPFI109883,Agencia 4,G-018,Trek Laguna de los Tres,Bajo,
+"Dec 25, 2025, 3:02:19 PM",En proceso,En tránsito,Cancelación,WPFI106959,Agencia 2,P-017,Alojamiento,Bajo,NO
+"Dec 26, 2025, 1:20:35 PM",Resuelto,En tránsito,Modificación,WPFI109101,Agencia 17,,Flexipass de 3 días,Bajo,
+"Dec 28, 2025, 3:14:20 PM",En proceso,En tránsito,Cancelación,WPFI109101,Agencia 17,,,Medio,
+"Dec 28, 2025, 3:48:42 PM",En proceso,En tránsito,Modificación,WPFI109321,Agencia 19,,,Bajo,
+"Dec 29, 2025, 1:22:10 PM",Pendiente,En tránsito,Informativo,WPFI108455,Agencia 17,P-001,,Alto,
+"Dec 30, 2025, 2:02:41 PM",Resuelto,En tránsito,Cancelación,WPFI110539,,"G-019, P-010",Trek Laguna de los Tres SIB ,Bajo,
+"Dec 30, 2025, 2:09:54 PM",En proceso,En tránsito,Informativo,WPFI106714,Agencia 18,P-010,Trek Laguna de los Tres SIB ,Medio,
+"Dec 30, 2025, 2:59:09 PM",Resuelto,En tránsito,Informativo,WPFI109683,Agencia 22,"G-006, P-010","Trek Laguna de los Tres PVT, Shared shuttle",Bajo,
+"Dec 30, 2025, 4:22:02 PM",En proceso,En tránsito,Queja,WPFI106035,Agencia 2,P-009,Box lunch,Alto,NO
+"Jan 2, 2026, 3:15:12 PM",En proceso,En tránsito,Queja,WPFI108605,Agencia 2,P-001,Transfer Bus Station/Hotel - Private,Alto,NO
+"Jan 2, 2026, 3:25:07 PM",En proceso,En tránsito,Queja,WPFI110405,Agencia 11,P-009,Box lunch,Alto,
+"Jan 2, 2026, 9:02:00 PM",En proceso,En tránsito,Queja,WPFI109056,Agencia 2,P-018,Habitación cuádruple,Bajo,SI/NO
+"Jan 3, 2026, 12:10:45 PM",En proceso,En tránsito,Cancelación,WPFI110564,Agencia 11,G-001,Trek Laguna Torre SIB,Medio,
+"Jan 4, 2026, 11:34:32 AM",En proceso,En tránsito,Cancelación,WPFI110490,Agencia 11,"G-001, P-010",Trek Laguna de los Tres SIB ,Bajo,
+"Jan 4, 2026, 11:56:58 AM",En proceso,En tránsito,Cancelación,WPFI108591,Agencia 2,G-015,Trek Laguna Torre SIB,Medio,SI
+"Jan 4, 2026, 12:16:32 PM",En proceso,En tránsito,Cancelación,WPFI108527,Agencia 2,G-015,Trek Laguna Torre SIB,Medio,SI
+"Jan 4, 2026, 3:14:45 PM",En proceso,En tránsito,Modificación,WPFI109185,Agencia 2,,,Medio,SI
+"Jan 4, 2026, 9:15:01 PM",Resuelto,En tránsito,Informativo,WPFI108605,Agencia 2,,Hotel,Bajo,SI
+"Jan 5, 2026, 12:00:54 PM",En proceso,En tránsito,Cancelación,WPFI107473,Agencia 24,P-007,,Medio,
+"Jan 5, 2026, 3:17:26 PM",Resuelto,En tránsito,Cancelación,WPFI109552,Agencia 2,,Trek Laguna Torre SIB,Bajo,SI
+"Jan 5, 2026, 3:57:50 PM",Pendiente,En tránsito,Modificación,WPFI109692,Agencia 2,,Trek Laguna de los Tres SIB ,Bajo,SI
+"Jan 7, 2026, 12:50:35 PM",En proceso,En tránsito,Cancelación,WPFI109692,Agencia 2,G-021,Trek Laguna Torre SIB,Medio,SI
+"Jan 7, 2026, 1:05:26 PM",En proceso,En tránsito,Modificación,WPFI110461,Agencia 5,"G-023, G-024",Trek Laguna de los Tres SIB ,Alto,
+"Jan 8, 2026, 2:16:19 PM",En proceso,En tránsito,Modificación,WPFI108880,Agencia 2,P-002,Mountain Bike,Medio,NO
+"Jan 8, 2026, 3:07:35 PM",Resuelto,En tránsito,Cancelación,WPFI110609,Agencia 11,G-022,Trek Laguna Torre SIB,Medio,
+"Jan 8, 2026, 10:03:31 PM",Resuelto,En tránsito,Informativo,WPFI110064,Agencia 11,P-010,Transfer El Chaltén/Río Eléctrico bridge - Shared,Bajo,
+"Jan 9, 2026, 10:35:26 AM",En proceso,En tránsito,Cancelación,WPFI110584,Cliente Directo,G-004,Trek Loma del Pliegue Tumbado,Bajo,
+"Jan 9, 2026, 10:29:13 PM",Resuelto,En tránsito,Cancelación,WPFI109990,Agencia 11,,Trek Laguna de los Tres SIB ,Bajo,
+"Jan 10, 2026, 1:16:18 PM",En proceso,En tránsito,Cancelación,WPFI110584,Cliente Directo,"G-004, P-010",Trek Laguna de los Tres SIB ,Medio,
+"Jan 10, 2026, 1:43:59 PM",En proceso,En tránsito,Cancelación,WPFI110465,Agencia 11,P-007,Kayak Lago del Desierto con traslado privado,Alto,
+"Jan 11, 2026, 3:15:28 PM",En proceso,En tránsito,Modificación,WPFI109952,Agencia 14,,,Alto,
+"Jan 11, 2026, 11:04:15 PM",En proceso,En tránsito,Informativo,WPGR107109,Agencia 25,,,Bajo,
+"Jan 12, 2026, 4:24:03 PM",Resuelto,En tránsito,Modificación,WPGR108693,Agencia 11,,Treks SIB,Bajo,
+"Jan 13, 2026, 11:58:39 AM",En proceso,En tránsito,Cancelación,WPFI107974,Agencia 2,G-007,Trek Laguna Torre SIB,Medio,SI
+"Jan 13, 2026, 2:30:49 PM",Pendiente,En tránsito,Cancelación,WPFI106172,Agencia 11,P-001,Transfer Hotel/Bus Station - Private,Alto,
+"Jan 13, 2026, 7:49:44 PM",En proceso,En tránsito,Informativo,WPFI107537,Agencia 2,,,Medio,SI/NO
+"Jan 14, 2026, 3:39:54 PM",En proceso,En tránsito,Informativo,WPFI110059,Agencia 17,,,Medio,
+"Jan 14, 2026, 4:30:01 PM",En proceso,En tránsito,Cancelación,WPFI106748,Agencia 2,,,Bajo,SI
+"Jan 16, 2026, 4:36:46 PM",En proceso,En tránsito,Queja,WPFI109516,Agencia 11,G-016,Trek Laguna de los Tres SIB ,Alto,
+"Jan 16, 2026, 5:26:49 PM",Resuelto,En tránsito,Modificación,WPFI106109,Agencia 2,P-010,Transfer El Chaltén/Río Eléctrico bridge - Shared,Bajo,SI
+"Jan 16, 2026, 5:49:39 PM",En proceso,En tránsito,Cancelación,WPFI109648,Agencia 2,"G-021, P-010",Trek Laguna de los Tres SIB ,Bajo,SI
+"Jan 16, 2026, 6:06:00 PM",Resuelto,En tránsito,Cancelación,WPFI109817,Agencia 11,"G-021, P-010",Trek Laguna de los Tres SIB ,Bajo,
+"Jan 16, 2026, 6:50:52 PM",En proceso,En tránsito,Informativo,WPFI107982,Agencia 2,-,Moreno Glacier - Private transport,Medio,SI/NO
+"Jan 18, 2026, 12:17:22 PM",En proceso,En tránsito,Informativo,WPFI110484,Agencia 11,P-001,Trek Laguna de Los Tres - Private guide & private transport,Bajo,
+"Jan 18, 2026, 5:51:56 PM",En proceso,En tránsito,Modificación,WPFI108764,Agencia 2,P-019,,Medio,SI/NO
+"Jan 18, 2026, 9:25:50 PM",En proceso,En tránsito,Informativo,WPFI110739,,,,Medio,
+"Jan 19, 2026, 11:25:32 AM",Resuelto,En tránsito,Cancelación,WPFI110505,Agencia 2,G-025,Trek Laguna Torre SIB,Bajo,SI
+"Jan 20, 2026, 10:29:53 AM",En proceso,En tránsito,Cancelación,WPFI110464,Agencia 20,P-001,Transfer Hotel/Bus Station - Private,Medio,
+"Jan 20, 2026, 4:24:00 PM",En proceso,En tránsito,Cancelación,WPFI109741,Agencia 2,,,Bajo,SI
+"Jan 21, 2026, 12:00:34 PM",En proceso,En tránsito,Cancelación,WPFI107056,Agencia 4,P-001,Transfer El Chaltén/Río Eléctrico bridge - Private,Bajo,
+"Jan 21, 2026, 2:03:24 PM",En proceso,En tránsito,Informativo,WPGR108726,Agencia 11,"P-001, G-028",Trek Laguna de Los Tres - Private guide & private transport,Bajo,
+"Jan 23, 2026, 12:34:20 PM",En proceso,En tránsito,Cancelación,WPFI110459,Agencia 11,"P-010, G-008",Trek Laguna de los Tres SIB ,Medio,
+"Jan 23, 2026, 1:28:33 PM",En proceso,En tránsito,Cancelación,WPFI109787,Agencia 2,P-004,Moreno Glacier - Private transport/SIB boat ride + walkways,Alto,SI
+"Jan 23, 2026, 5:17:20 PM",En proceso,En tránsito,Modificación,WPFI110504,Agencia 20,,Trek Laguna de los Tres SIB ,Bajo,
+"Jan 23, 2026, 10:09:15 PM",Resuelto,En tránsito,Cancelación,WPFI109364,Agencia 11,,Bastones telescópicos,Bajo,
+"Jan 23, 2026, 10:32:25 PM",En proceso,En tránsito,Cancelación,WPFI110476,Agencia 11,P-001,Transfer El Chaltén/Río Eléctrico bridge - Private,Bajo,
+"Jan 25, 2026, 10:38:40 AM",En proceso,En tránsito,Cancelación,WPFI107488,Agencia 2,G-005,Trek Laguna Torre SIB,Medio,SI
+"Jan 25, 2026, 11:07:20 AM",En proceso,En tránsito,Cancelación,WPFI109787,Agencia 2,"P-010, G-023",Trek Laguna de los Tres SIB ,Medio,SI
+"Jan 25, 2026, 3:32:26 PM",En proceso,En tránsito,Informativo,WPFI109488,Agencia 11,,,Alto,
+"Jan 25, 2026, 3:53:29 PM",En proceso,En tránsito,Modificación,WPFI109077,Agencia 2,,,Bajo,SI
+"Jan 25, 2026, 8:00:03 PM",Resuelto,En tránsito,Cancelación,WPFI107583,Agencia 17,P-001,Transfer Lago del Desierto (Punta Sur) /El Chaltén - Private,Bajo,
+"Jan 26, 2026, 5:13:30 PM",Resuelto,En tránsito,Informativo,WPFI106154,Agencia 2,P-022,Shuttle|El Chaltén / El Calafate Airport,Alto,NO
+"Jan 27, 2026, 11:14:06 AM",En proceso,En tránsito,Cancelación,WPFI109468,Agencia 11,"P-010, G-021, G-008",Trek Laguna de los Tres SIB ,Alto,
+"Jan 27, 2026, 10:09:11 PM",En proceso,En tránsito,Cancelación,WPFI109585,Agencia 2,,,Medio,NO
+"Jan 28, 2026, 10:12:32 PM",En proceso,En tránsito,Modificación,WPFI110339,Agencia 2,,,Medio,SI
+"Jan 29, 2026, 12:04:27 PM",En proceso,En tránsito,Cancelación,WPFI109862,Agencia 2,G-001,Trek Laguna Torre SIB,Alto,SI
+"Jan 29, 2026, 12:25:28 PM",En proceso,En tránsito,Queja,WPFI109862,Agencia 2,G-026,Trek Laguna de los Tres SIB ,Alto,SI
+"Jan 29, 2026, 11:33:12 PM",Resuelto,En tránsito,Cancelación,WPFI110314,Agencia 2,G-021,Trek Laguna Torre - Privado,Medio,SI
+"Jan 30, 2026, 7:57:49 PM",En proceso,En tránsito,Queja,WPFI104953,Agencia 2,P-017,Habitación Superior,Medio,NO
+"Jan 30, 2026, 10:35:45 PM",Resuelto,En tránsito,Modificación,WPFI109585,Agencia 2,G-018,Trek Laguna Torre SIB,Bajo,SI
+"Jan 30, 2026, 11:11:34 PM",En proceso,En tránsito,Modificación,WPFI107206,Agencia 2,"P-020, G-023, P-001, P-021",Rafting y Reserva Privada,Medio,SI
+"Feb 1, 2026, 3:39:54 PM",En proceso,En tránsito,Cancelación,WPFI108265,Agencia 11,,Welcome Briefing,Medio,
+"Feb 1, 2026, 3:47:06 PM",En proceso,En tránsito,Modificación,WPFI107696,Agencia 2,,,Medio,SI
+"Feb 1, 2026, 8:22:52 PM",Resuelto,En tránsito,Cancelación,WPFI109442,Agencia 11,G-006,Trek Laguna Torre - Private guide,Bajo,
+"Feb 3, 2026, 12:42:26 PM",En proceso,En tránsito,Cancelación,WPFI108158,Agencia 2,G-002,Trek Laguna Torre,Bajo,SI
+"Feb 5, 2026, 1:43:03 PM",En proceso,En tránsito,Cancelación,WPFI110086,Agencia 2,P-011,Transfer hotel FTE / Aeropuerto,Medio,SI
+"Feb 6, 2026, 1:59:32 PM",En proceso,En tránsito,Cancelación,WPFI108158,Agencia 2,P-022,Shuttle|El Chaltén / El Calafate Airport,Medio,SI
+"Feb 8, 2026, 7:46:58 PM",Resuelto,En tránsito,Informativo,WPFI108078,Agencia 2,,,Bajo,SI
+"Feb 9, 2026, 1:57:38 PM",Resuelto,En tránsito,Modificación,WPFI107070,Agencia 21,P-001,Trek Laguna de Los Tres - Private guide & private transport,Medio,
+"Feb 9, 2026, 3:13:18 PM",En proceso,En tránsito,Cancelación,WPFI110403,Agencia 11,,,Bajo,
+"Feb 9, 2026, 4:39:59 PM",En proceso,En tránsito,Informativo,WPGR110808,Agencia 3,P-009,,Bajo,
+"Feb 9, 2026, 4:52:24 PM",En proceso,En tránsito,Cancelación,WPFI110616,Agencia 18,,,Medio,
+"Feb 10, 2026, 12:48:32 PM",Resuelto,En tránsito,Cancelación,WPFI107484,Agencia 2,"P-011, G-027, P-025",Moreno Glacier & 1h boat ride - Private guide & transport,Medio,SI
+"Feb 11, 2026, 11:47:33 AM",En proceso,En tránsito,Cancelación,WPFI110930,Agencia 26,"P-010, G-031",Trek Laguna de los Tres SIB ,Alto,
+,Resuelto,En tránsito,Modificación,WPFI107367,Agencia 2,P-025,Ice trek Moreno Glacier,Medio,SI
+"Feb 13, 2026, 9:54:51 PM",Pendiente,En tránsito,Informativo,WPFI106549,Agencia 2,,,Medio,SI
+"Feb 14, 2026, 11:12:06 AM",En proceso,En tránsito,Modificación,WPFI110466,Agencia 11,G-029,Trek Loma del Pliegue Tumbado,Bajo,
+"Feb 14, 2026, 3:33:01 PM",Resuelto,En tránsito,Informativo,WPFI110893,Agencia 5,,,Bajo,
+"Feb 15, 2026, 12:09:45 PM",En proceso,En tránsito,Cancelación,WPFI109900,Agencia 2,P-010,Transfer El Chaltén/Río Eléctrico bridge - Shared,Bajo,SI
+"Feb 15, 2026, 3:23:14 PM",En proceso,En tránsito,Informativo,WPFI109329,Agencia 4,,,Bajo,
+"Feb 15, 2026, 6:22:55 PM",En proceso,En tránsito,Queja,WPFI109198,Agencia 2,,,Medio,SI
+"Feb 15, 2026, 8:16:48 PM",Resuelto,En tránsito,Cancelación,WPFI109329,Agencia 4,P-001,Transfer El Chaltén/Río Eléctrico bridge - Private,Bajo,
+"Feb 16, 2026, 2:17:45 PM",Resuelto,En tránsito,Cancelación,WPFI110828,Agencia 11,"Guia, P-010",Trek Laguna de los Tres SIB ,Bajo,
+"Feb 16, 2026, 2:22:30 PM",Resuelto,En tránsito,Cancelación,WPFI110310,Agencia 2,Guia + transfer regular,Trek Laguna de los Tres SIB ,Bajo,SI
+"Feb 16, 2026, 3:21:59 PM",En proceso,En tránsito,Informativo,WPFI108543,Agencia 2,,Transfer El Chaltén Bus Station/Hotel - Private,Medio,NO
+"Feb 16, 2026, 3:16:04 PM",Resuelto,En tránsito,Informativo,WPFI106973,Agencia 2,P-029,Pase de dos dias,Bajo,NO
+"Feb 16, 2026, 8:39:43 PM",En proceso,En tránsito,Cancelación,WPFI110470,Agencia 19,,,Bajo,
+"Feb 16, 2026, 11:21:12 PM",En proceso,En tránsito,Informativo,WPFI108115,Agencia 2,,,Bajo,SI
+"Feb 18, 2026, 12:45:45 PM",En proceso,En tránsito,Cancelación,WPFI108102,Agencia 2,"P-010, G-008",Trek Laguna de los Tres SIB ,Medio,SI
+"Feb 18, 2026, 6:22:38 PM",Resuelto,En tránsito,Cancelación,WPFI110942,Agencia 4,P-022,Shuttle,Bajo,
+"Feb 19, 2026, 3:09:11 PM",En proceso,En tránsito,Modificación,WPFI104426,Agencia 2,,,Alto,SI
+"Feb 19, 2026, 3:26:01 PM",En proceso,En tránsito,Modificación,WPFI107817,Agencia 2,"P-011, P-026, G-030, P-002",Transfer Aeropuerto / Hotel - Trek Laguna de los Tres - Mountain Bike,Alto,NO
+"Feb 19, 2026, 4:29:02 PM",Pendiente,En tránsito,Cancelación,WPFI109845,Agencia 2,P-004,"Excursion Moreno Glacier, Boat Ride and Trek",Alto,NO
+"Feb 19, 2026, 4:33:20 PM",Pendiente,En tránsito,Cancelación,WPFI107527,Agencia 2,P-004,"Excursion Moreno Glacier, Boat Ride and Trek",Alto,NO
+"Feb 19, 2026, 4:56:25 PM",Pendiente,En tránsito,Cancelación,WPFI110758,Agencia 2,"P-023, P-022",Alojamiento - Guiada y Traslado,Alto,NO
+"Feb 19, 2026, 5:43:07 PM",Pendiente,En tránsito,Cancelación,WPFI109198,Agencia 2,P-011,Transfer Hotel/El Calafate Airport - Private,Alto,NO
+"Feb 19, 2026, 5:50:22 PM",Resuelto,En tránsito,Cancelación,WPFI108543,Agencia 2,P-011,Transfer Hotel/El Calafate Airport - Private,Medio,NO
+"Feb 20, 2026, 6:04:44 PM",En proceso,En tránsito,Modificación,WPFI110896,Agencia 19,"P-024, P-011",Upsala Glacier - Private transport,Medio,
+"Feb 23, 2026, 12:54:09 PM",Resuelto,En tránsito,Modificación,WPFI109922,Agencia 21,G-031,Trek Laguna de los Tres SIB ,Bajo,
+"Feb 23, 2026, 5:32:18 PM",En proceso,En tránsito,Queja,WPFI111254,Agencia 11,,Trek Laguna Torre SIB,Alto,
+"Feb 24, 2026, 12:37:17 PM",En proceso,En tránsito,Cancelación,WPGR108184,Agencia 27,G-026,Trek Laguna Capri,Medio,
+"Feb 25, 2026, 1:00:56 PM",Resuelto,En tránsito,Modificación,WPFI111131,Agencia 29,G-031,Trek Laguna Capri,Bajo,
+"Feb 25, 2026, 1:21:59 PM",En proceso,En tránsito,Modificación,WPFI111271,Cliente Directo,"G-032, P-010",Trek Laguna Capri,Medio,
+"Feb 25, 2026, 3:57:10 PM",En proceso,En tránsito,Cancelación,WPFI109417,Agencia 30,,,Medio,
+"Feb 25, 2026, 6:10:26 PM",Resuelto,En tránsito,Cancelación,WPFI111009,Agencia 11,"Guia, P-010",Trek Laguna de los Tres SIB ,Bajo,
+"Feb 27, 2026, 3:09:40 PM",En proceso,En tránsito,Informativo,WPFI110411,Agencia 31,G-011,Trek Laguna Capri,Medio,
+"Mar 2, 2026, 2:13:31 PM",Pendiente,En tránsito,Cancelación,WPFI110972,Agencia 19,P-022,Shuttle|El Calafate Airport / Chalten,Medio,
+"Mar 3, 2026, 3:06:32 PM",En proceso,En tránsito,Informativo,WPFI110541,Agencia 19,"P-010, G-008",Trek Laguna de los Tres SIB ,Bajo,
+"Mar 4, 2026, 1:23:55 PM",Resuelto,En tránsito,Cancelación,WPFI111360,Agencia 11,"G-017, P-010",Trek Laguna de los Tres SIB ,Medio,
+"Mar 4, 2026, 2:07:56 PM",En proceso,En tránsito,Cancelación,WPFI110156,Agencia 2,G-008,Trek Laguna Torre,Bajo,SI
+"Mar 5, 2026, 12:32:42 PM",En proceso,En tránsito,Cancelación,WPFI110750,Agencia 2,G-008,Trek Loma del Pliegue Tumbado SIB,Medio,SI
+"Mar 5, 2026, 12:48:06 PM",En proceso,En tránsito,Informativo,WPFI111267,Agencia 18,G-006,Trek Laguna Torre SIB,Medio,
+"Mar 5, 2026, 11:01:27 PM",Pendiente,En tránsito,Queja,,Agencia 26,P-014,Day Trip Vespignani - Boat ride & private transport,Alto,
+"Mar 6, 2026, 3:59:05 PM",Pendiente,En tránsito,Cancelación,WPFI107900,Agencia 2,P-004,"Excursion Moreno Glacier, Boat Ride and Trek",Medio,NO
+"Mar 7, 2026, 1:34:03 PM",En proceso,En tránsito,Cancelación,WPFI107736,Agencia 2,P-016,Transfer Aeropuerto FTE / El Chaltén,Alto,SI
+"Mar 8, 2026, 11:41:59 AM",En proceso,En tránsito,Cancelación,WPFI107736,Agencia 2,G-011,Guided Service - Laguna Torre,Medio,SI
+"Mar 8, 2026, 2:21:00 PM",En proceso,En tránsito,Cancelación,WPFI103030,Agencia 2,P-022,Traslado Terminal de bus FTE - Hotel CHT,Alto,SI
+"Mar 8, 2026, 3:09:46 PM",En proceso,En tránsito,Informativo,WPFI107855,Agencia 19,,Baggage Assistance IN,Bajo,
+"Mar 8, 2026, 8:50:05 PM",En proceso,En tránsito,Queja,WPFI107714,Agencia 2,,,Alto,NO
+"Mar 10, 2026, 6:29:29 PM",Resuelto,En tránsito,Cancelación,WPFI108039,Agencia 4,"Guía, P-001",Trek Laguna de Los Tres - Private guide & private transport,Medio,
+"Mar 10, 2026, 10:30:42 PM",Resuelto,En tránsito,Cancelación,WPFI109241,Agencia 2,P-022,,Bajo,NO
+"Mar 11, 2026, 1:26:34 PM",En proceso,En tránsito,Cancelación,WPFI111176,Agencia 11,"P-010, G-007",Trek Laguna de los Tres SIB ,Medio,
+"Mar 12, 2026, 12:24:26 PM",En proceso,En tránsito,Cancelación,WPFI111001,Agencia 21,"P-010, G-008",Trek Laguna de los Tres SIB ,Medio,
+"Mar 12, 2026, 10:37:33 PM",Resuelto,En tránsito,Cancelación,WPFI109063,Agencia 11,,,Bajo,
+"Mar 13, 2026, 11:46:20 PM",Resuelto,En tránsito,Modificación,WPFI110269,Agencia 4,G-025,Guiada,Bajo,
+"Mar 15, 2026, 11:56:18 AM",Resuelto,En tránsito,Cancelación,WPFI108864,Agencia 2,P-021,Visit to the refuge - sweet crepe,Medio,SI
+"Mar 15, 2026, 12:29:13 PM",En proceso,En tránsito,Modificación,WPFI107241,Agencia 4,"G-033, P-001",Trek Laguna de los Tres / Trek Laguna Torre,Bajo,
+"Mar 15, 2026, 1:22:17 PM",En proceso,En tránsito,Cancelación,WPFI110269,Agencia 4,"G-034, P-001",Trek Laguna de Los Tres - Private guide & private transport,Alto,
+"Mar 16, 2026, 2:47:33 PM",En proceso,En tránsito,Modificación,WPFI107967,Agencia 2,,,Bajo,SI/NO
+"Mar 16, 2026, 3:10:12 PM",Resuelto,En tránsito,Informativo,WPFI108160,Agencia 2,P-011,,Bajo,SI
+"Mar 16, 2026, 3:39:17 PM",Resuelto,En tránsito,Informativo,WPFI111219,,,,Bajo,
+"Mar 16, 2026, 4:07:41 PM",En proceso,En tránsito,Queja,WPFI111136,Agencia 19,,,Alto,
+"Mar 16, 2026, 7:16:26 PM",En proceso,En tránsito,Informativo,WPFI111066,Agencia 12,,,Bajo,
+"Mar 17, 2026, 3:26:36 PM",En proceso,En tránsito,Cancelación,WPFI111233,Agencia 2,,,Bajo,SI
+"Mar 17, 2026, 8:47:42 PM",En proceso,En tránsito,Modificación,WPFI107967,Agencia 2,P-002,Cabalgata con almuerzo,Bajo,NO
+"Mar 18, 2026, 3:53:09 PM",En proceso,En tránsito,Modificación,WPFI110788,Agencia 11,P-002,Mountain Bike,Bajo,
+,En proceso,En tránsito,Informativo,WPFI108475,Agencia 2,,,Bajo,SI
+"Mar 19, 2026, 11:24:10 AM",En proceso,En tránsito,Cancelación,WPFI111064,Agencia 18,P-010,Transfer El Chaltén/Río Eléctrico bridge - Shared,Bajo,
+"Mar 19, 2026, 3:18:14 PM",Resuelto,En tránsito,Informativo,WPFI110977,Agencia 11,,,Bajo,
+"Mar 19, 2026, 10:16:52 PM",En proceso,En tránsito,Modificación,WPFI111353,Agencia 2,P-028,,Bajo,SI
+"Mar 20, 2026, 11:01:46 PM",En proceso,En tránsito,Modificación,WPFI107673,Agencia 2,,,Bajo,SI
+"Mar 22, 2026, 8:59:53 PM",Resuelto,En tránsito,Modificación,WPFI111578,Cliente Directo,"P-010, Guia",Trek Laguna de los Tres SIB ,Bajo,
+"Mar 23, 2026, 11:41:53 AM",Resuelto,En tránsito,Cancelación,WPFI111555,Agencia 11,"Guia, P-010",Trek Laguna de los Tres SIB ,Bajo,
+"Mar 23, 2026, 11:59:45 AM",Resuelto,En tránsito,Cancelación,WPFI110962,Agencia 11,Guia y Traslado,Trek Laguna de los Tres SIB ,Bajo,
+"Mar 23, 2026, 12:29:23 PM",Pendiente,En tránsito,Cancelación,WPFI110850,Cliente Directo,P-002,Cabalgata,Medio,
+"Mar 23, 2026, 2:42:43 PM",Resuelto,En tránsito,Cancelación,WPFI108120,Agencia 11,Guia y Traslado,Trek Laguna de los Tres SIB ,Bajo,
+"Mar 24, 2026, 1:34:10 PM",En proceso,En tránsito,Cancelación,WPFI111567,Agencia 5,G-035,Trek Laguna Torre,Medio,
+"Mar 24, 2026, 1:42:16 PM",En proceso,En tránsito,Cancelación,WPFI111098,Agencia 19,"P-010, G-008",Trek Laguna de los Tres SIB ,Medio,
+"Mar 24, 2026, 6:21:15 PM",En proceso,En tránsito,Modificación,WPFI109942,Agencia 2,Hotel- Viandas- Traslado,Box lunch / Transfer El Chaltén / El Calafate airport,Bajo,SI
+"Mar 24, 2026, 11:10:05 PM",Resuelto,En tránsito,Modificación,WPGR111546,Agencia 7,P-001,Trek Laguna de Los Tres - Private guide & private transport,Bajo,
+"Mar 24, 2026, 11:15:47 PM",Resuelto,En tránsito,Modificación,WPFI107322,Agencia 2,P-002,Cabalgata con almuerzo,Bajo,NO
+"Mar 25, 2026, 12:51:55 PM",En proceso,En tránsito,Cancelación,WPFI111578,Cliente Directo,"P-010, G-006",Trek Laguna de los Tres SIB ,Medio,
+"Mar 25, 2026, 1:00:00 PM",En proceso,En tránsito,Cancelación,WPFI104377,Agencia 2,P-010,Trek Laguna de los Tres SIB ,Medio,SI
+"Mar 26, 2026, 4:52:17 PM",Pendiente,En tránsito,Cancelación,WPFI110057,Agencia 2,P-027,Safari,Medio,NO
+"Mar 28, 2026, 12:28:55 PM",En proceso,En tránsito,Cancelación,WPFI102839,Agencia 2,"P-007, P-001, G-008",Kayak Lago del Desierto con traslado privado,Alto,SI
+"Mar 28, 2026, 12:52:44 PM",En proceso,En tránsito,Informativo,,Agencia 15,,Traslado Destino Sur - Terminal de bus CHT,Alto,
+"Mar 29, 2026, 2:25:21 PM",En proceso,En tránsito,Cancelación,WPFI111383,Agencia 19,G-008,Trek Laguna Torre SIB,Medio,
+"Mar 29, 2026, 3:29:45 PM",En proceso,En tránsito,Modificación,WPFI108190,Agencia 32,,,Medio,
+"Mar 29, 2026, 3:47:18 PM",En proceso,En tránsito,Queja,WPWI111706,Cliente Directo,,Trek Laguna de los Tres SIB ,Alto,
+"Mar 30, 2026, 2:41:26 PM",Pendiente,En tránsito,Modificación,WPFI110886,Agencia 2,Guia y Traslado,Laguna de los tres y Laguna Torre,Medio,SI
+"Mar 30, 2026, 3:27:04 PM",Resuelto,En tránsito,Cancelación,WPFI111481,Agencia 2,G-002,Trek Laguna Torre,Bajo,SI
+"Mar 30, 2026, 3:40:48 PM",En proceso,En tránsito,Cancelación,WPFI110057,Agencia 2,P-025,Ice trek Moreno Glacier ,Bajo,SI
+"Mar 31, 2026, 1:21:27 PM",En proceso,En tránsito,Cancelación,WPFI111564,Agencia 11,"G-024, P-010",Trek Laguna de los Tres SIB ,Medio,
+"Mar 31, 2026, 1:41:16 PM",En proceso,En tránsito,Modificación,WPFI111432,Agencia 11,P-007,Kayak Lago del Desierto con traslado privado,Medio,
+"Mar 31, 2026, 4:35:22 PM",En proceso,En tránsito,Cancelación,WPFI109691,Agencia 4,,,Medio,
+"Mar 31, 2026, 4:54:01 PM",En proceso,En tránsito,Cancelación,WPFI106742,Agencia 2,,,Medio,SI
+"Mar 31, 2026, 4:54:18 PM",Resuelto,Post-viaje,Cancelación,WPFI111039,Agencia 11,P-001,Transfer El Chaltén/Río Eléctrico bridge - Private,Bajo,
+"Apr 1, 2026, 8:08:55 PM",En proceso,En tránsito,Modificación,WPFI109057,Agencia 2,,,Bajo,SI
+"Apr 1, 2026, 11:11:01 PM",En proceso,En tránsito,Cancelación,WPFI106927,Agencia 2,,,Bajo,SI
+"Apr 2, 2026, 2:15:17 PM",En proceso,En tránsito,Modificación,WPFI106927,Agencia 2,"G-024, P-001",Trek Laguna de Los Tres - Private guide & private transport,Medio,SI
+"Apr 2, 2026, 3:07:38 PM",En proceso,En tránsito,Cancelación,WPFI109847,Agencia 11,G-031,Trek Laguna Torre,Medio,
+"Apr 2, 2026, 10:22:36 PM",Resuelto,En tránsito,Modificación,WPFI107639,Agencia 2,Guia y traslado,Trek to be confirmed - Private guide,Bajo,SI
+"Apr 2, 2026, 11:19:00 PM",Resuelto,En tránsito,Modificación,WPFI111477,Agencia 4,"P-001, Guia",Trek Laguna de Los Tres - Private guide & private transport,Bajo,
+"Apr 3, 2026, 11:17:54 AM",En proceso,En tránsito,Cancelación,WPFI111412,Agencia 2,P-001,Transfer El Chaltén/Río Eléctrico bridge - Private,Medio,SI
+"Apr 7, 2026, 11:00:12 PM",En proceso,En tránsito,Modificación,WPFI107350,Agencia 11,P-020,Kayak Rio de las Vueltas,Bajo,
+"Apr 9, 2026, 2:50:11 PM",En proceso,En tránsito,Informativo,WPFI110820,Agencia 28,G-020,Trek Laguna Capri,Medio,
+"Apr 12, 2026, 11:02:58 AM",En proceso,En tránsito,Informativo,WPFI110681,Agencia 2,P-001,Transfer Chaltén / Calafate,Medio,SI
+"Apr 12, 2026, 4:08:28 PM",En proceso,En tránsito,Modificación,WPGR111727,Agencia 7,,,Medio,
+"Apr 15, 2026, 12:37:44 PM",Resuelto,En tránsito,Modificación,WPGR111694,Agencia 33,Guia,Trek Chorrillo & Miradores - Private guide,Bajo,
+"Apr 18, 2026, 12:01:08 PM",En proceso,En tránsito,Queja,WPFI109140,Agencia 30,P-028,Traslado Chaltén / Calafate,Medio,
+"Apr 18, 2026, 3:42:14 PM",En proceso,En tránsito,Modificación,WPGR108183,Agencia 23,P-001,,Bajo,
+"Apr 22, 2026, 5:55:35 PM",Pendiente,En tránsito,Cancelación,WPFI110440,Agencia 2,P-013,Kayak en Calafate,Bajo,NO
+"Apr 27, 2026, 3:44:16 PM",Resuelto,En tránsito,Modificación,WPFI111458,Cliente Directo,Guia- traslado,Trek Laguna de Los Tres,Bajo,
+"Apr 27, 2026, 5:30:46 PM",Resuelto,En tránsito,Modificación,WPFI110844,Agencia 11,Guia- Traslado,Trek Laguna de Los Tres,Bajo,
+"May 29, 2026, 12:40:21 PM",Resuelto,Post-viaje,Queja,WPFI106622,Agencia 2,P-029,Entradas al Parque Nacional,Bajo,NO
