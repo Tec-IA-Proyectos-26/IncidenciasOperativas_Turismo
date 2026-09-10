@@ -10,12 +10,9 @@ Analizar los registros de incidencias operativas para identificar patrones, prob
 
 - Python
 - Pandas
-- NumPy
-- Matplotlib
-- Seaborn
 - Google Colab
 - GitHub
 
 ## Equipo
 
-Proyecto realizado por estudiantes del segundo año de la Tecnicatura en Ciencia de Datos (Comisión B).
+Proyecto realizado por estudiantes del segundo año de la Tecnicatura en Ciencia de Datos (Comisión B2).
