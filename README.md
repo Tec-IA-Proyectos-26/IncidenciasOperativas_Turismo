@@ -16,3 +16,8 @@ Analizar los registros de incidencias operativas para identificar patrones, prob
 ## Equipo
 
 Proyecto realizado por estudiantes del segundo año de la Tecnicatura en Ciencia de Datos (Comisión B2).
+
+## Estructura del proyecto
+
+- `APP/`: aplicación Streamlit (páginas, carga de datos para la app y reporte EDA). Ejecutar con `streamlit run APP/App.py`. Dependencias en `APP/requirements.txt`.
+- `DATOS/`: bitácoras CSV fuente, utilizadas tanto por la app como por el análisis en Google Colab.
