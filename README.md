@@ -6,6 +6,18 @@ Proyecto ABP orientado al análisis de incidencias operativas en una agencia de 
 
 Analizar los registros de incidencias operativas para identificar patrones, problemas recurrentes y oportunidades de mejora en los procesos de la agencia.
 
+## Integrantes
+
+|     Nombre    |     Usuario   |
+| ------------- |:-------------:|
+| Ana Aguirre    | [AnaAguirre77](https://github.com/AnaAguirre77) |
+| Belen Riquelme | [bely092](https://github.com/bely092) |
+| Jorge Paredes  | [GeorgiWalls](https://github.com/GeorgiWalls)  |
+| Leandro Cabral | [Leancbal](https://github.com/Leancbal)  |
+| Nicolas Farias | [NICOLASFARIAS](https://github.com/NICOLASEFARIAS)|
+| Wanda Esquivel | [Wanda126](https://github.com/Wanda126)|
+
+
 ## Tecnologías
 
 - Python
