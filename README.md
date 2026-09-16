@@ -6,6 +6,13 @@ Proyecto ABP orientado al análisis de incidencias operativas en una agencia de 
 
 Analizar los registros de incidencias operativas para identificar patrones, problemas recurrentes y oportunidades de mejora en los procesos de la agencia.
 
+## Tecnologías
+
+- Python
+- Pandas
+- Google Colab
+- GitHub
+
 ## Integrantes
 
 |     Nombre    |     Usuario   |
@@ -17,17 +24,7 @@ Analizar los registros de incidencias operativas para identificar patrones, prob
 | Nicolas Farias | [NICOLASFARIAS](https://github.com/NICOLASEFARIAS)|
 | Wanda Esquivel | [Wanda126](https://github.com/Wanda126)|
 
-
-## Tecnologías
-
-- Python
-- Pandas
-- Google Colab
-- GitHub
-
-## Equipo
-
-Proyecto realizado por estudiantes del segundo año de la Tecnicatura en Ciencia de Datos (Comisión B2).
+Proyecto realizado por estudiantes del segundo año de la Tecnicatura en Ciencia de Datos e IA (Comisión B2).
 
 ## Estructura del proyecto
 
