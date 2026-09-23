@@ -13,9 +13,18 @@ Analizar los registros de incidencias operativas para identificar patrones, prob
 - Google Colab
 - GitHub
 
-## Equipo
+## Integrantes
 
-Proyecto realizado por estudiantes del segundo año de la Tecnicatura en Ciencia de Datos (Comisión B2).
+|     Nombre    |     Usuario   |
+| ------------- |:-------------:|
+| Ana Aguirre    | [AnaAguirre77](https://github.com/AnaAguirre77) |
+| Belen Riquelme | [bely092](https://github.com/bely092) |
+| Jorge Paredes  | [GeorgiWalls](https://github.com/GeorgiWalls)  |
+| Leandro Cabral | [Leancbal](https://github.com/Leancbal)  |
+| Nicolas Farias | [NICOLASFARIAS](https://github.com/NICOLASEFARIAS)|
+| Wanda Esquivel | [Wanda126](https://github.com/Wanda126)|
+
+Proyecto realizado por estudiantes del segundo año de la Tecnicatura en Ciencia de Datos e IA (Comisión B2).
 
 ## Estructura del proyecto
 

@@ -3,7 +3,7 @@ import streamlit as st
 from ydata_profiling import ProfileReport
 from streamlit_ydata_profiling import st_profile_report
 
-st.title("🧮 TourOps: Analisis de incidencias turisticas", text_alignment="center")
+st.markdown("## 🔍 TourOps: Analisis Exploratorio de Datos", text_alignment="center")
 st.divider()
 
 # Link del dataset que vamos a utilizar
@@ -19,7 +19,7 @@ def carga_de_datos(url_raw):
 # Decorador @st.cache_resourse guarda y conserva el reporte generado en memoria en cada refresh
 @st.cache_resource
 def generacion_reporte(df):
-    profile = ProfileReport(df, title="Reporte de turismo")
+    profile = ProfileReport(df)
     return profile
 
 df = carga_de_datos(url_raw)
