@@ -28,5 +28,45 @@ Proyecto realizado por estudiantes del segundo año de la Tecnicatura en Ciencia
 
 ## Estructura del proyecto
 
-- `APP/`: aplicación Streamlit (páginas, carga de datos para la app y reporte EDA). Ejecutar con `streamlit run APP/App.py`. Dependencias en `APP/requirements.txt`.
+- `APP/`: aplicación Streamlit (páginas, carga de datos para la app y reporte EDA). Dependencias en `APP/requirements.txt`.
+  - `App.py`: punto de entrada, define la navegación entre páginas.
+  - `Principal.py`: página de bienvenida.
+  - `Eda.py`: análisis exploratorio (perfilado automático) sobre `DATOS/bitacora_tempo25-26_version2.csv`.
+  - `ETL.py`: reporte estático del procesamiento de datos.
+  - `Comparacion.py`: compara version1 vs version2 (filas, columnas, nulos).
+  - `Preguntas.py`: dashboard de incidencias con filtros (fecha, tipo, impacto, proveedor, servicio) y gráficos.
+  - `Dashboard.py`: visualización de incidencias por agencia.
+  - `etl_functions.py`: funciones de carga y consulta reutilizadas por las páginas.
+  - `desktop_launcher.py`: levanta la app como ventana de escritorio nativa (ver abajo).
 - `DATOS/`: bitácoras CSV fuente, utilizadas tanto por la app como por el análisis en Google Colab.
+
+## Cómo levantar el proyecto
+
+1. Crear y activar un entorno virtual (una sola vez):
+
+   ```powershell
+   python -m venv venv
+   .\venv\Scripts\Activate.ps1
+   ```
+
+2. Instalar las dependencias:
+
+   ```powershell
+   pip install -r APP/requirements.txt
+   ```
+
+3. Elegir cómo correrla:
+
+   - **Como app web** (se abre en el navegador en `http://localhost:8501`):
+
+     ```powershell
+     streamlit run APP/App.py
+     ```
+
+   - **Como app de escritorio** (se abre en una ventana nativa, sin navegador):
+
+     ```powershell
+     python APP/desktop_launcher.py
+     ```
+
+   Ambas opciones muestran las mismas páginas: Bienvenidos, EDA, ETL, Comparación v1 vs v2, Preguntas y Dashboard.
