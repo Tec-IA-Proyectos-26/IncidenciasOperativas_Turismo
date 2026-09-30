@@ -9,8 +9,10 @@ def main():
     eda = st.Page("Eda.py", title= "EDA", icon="🔎")
     dashboard = st.Page("Dashboard.py", title= "Dashboard de Incidencias Turisticas", icon="📊")
     etl = st.Page("ETL.py", title="ETL", icon="⚙")
+    comparacion = st.Page("Comparacion.py", title="Comparación v1 vs v2", icon="🔀")
+    preguntas = st.Page("Preguntas.py", title="Preguntas", icon="❓")
 
-    paginacion = st.navigation([principal, eda, etl, dashboard])
+    paginacion = st.navigation([principal, eda, etl, comparacion, preguntas, dashboard])
 
     paginacion.run()
 
