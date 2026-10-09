@@ -1,15 +1,14 @@
-import streamlit as st
-from pathlib import Path
 import plotly.express as px
-from Eda import carga_de_datos
+import streamlit as st
 
-data = Path(__file__).parent / "archivos" / "df_clean.csv"
+from etl_functions import cargar_datos_limpios, excluir_sin_informacion, resumen_por_agencia
 
-# Carga de datos para obtener datos para graficos reutilizando funcion de Modulo Eda
-df_final = carga_de_datos(data)
+# Los datos se cargan desde etl_functions (importar Eda ejecutaba toda la pagina de EDA)
+df_final = cargar_datos_limpios()
 
-st.markdown("## ✨Visualización", text_alignment="center")
+st.markdown("## ✨ Visualización - Reporte de Incidencias por Agencia", text_alignment="center")
 
-# Grafico de barras
-fig1 = px.bar(df_final, x="Agencia", y="Tipo incidente", color="Agencia")
-st.plotly_chart(fig1)
+# Grafico de barras: incidencias unicas por agencia (sin las que no informan agencia)
+incidencias_agencia = excluir_sin_informacion(resumen_por_agencia(df_final), "Agencia")
+fig1 = px.bar(incidencias_agencia, x="Agencia", y="Cantidad", color="Agencia")
+st.plotly_chart(fig1, width="stretch")

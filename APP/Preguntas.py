@@ -6,6 +6,8 @@ from etl_functions import (
     calcular_kpis,
     cargar_datos_limpios,
     evolucion_por_mes,
+    incidencias_por_tipo,
+    incidencias_unicas,
     top_n_conteo,
 )
 
@@ -54,7 +56,7 @@ if servicio_sel:
 # ---------- KPIs ----------
 kpis = calcular_kpis(df_filtrado)
 col1, col2, col3, col4 = st.columns(4)
-col1.metric("Total Incid.", kpis["total"])
+col1.metric("Total Incid.", kpis["total"], help="Incidencias únicas (ID_incidencia distintos)")
 col2.metric("Tipo más frecuente", kpis["tipo_mas_frecuente"])
 col3.metric("Proveedor con más incid.", kpis["proveedor_top"])
 col4.metric("% Impacto Alto", f"{kpis['pct_impacto_alto']:.1f}%")
@@ -63,7 +65,8 @@ st.divider()
 
 # ---------- Pregunta 1 ----------
 st.subheader("¿Qué tipos de incidencias son más frecuentes?")
-tipo_conteo = top_n_conteo(df_filtrado, "Tipo incidente")
+# El tipo se cuenta sobre (ID_incidencia, Tipo incidente) sin duplicados, igual que en el Colab
+tipo_conteo = top_n_conteo(incidencias_por_tipo(df_filtrado), "Tipo incidente")
 fig1 = px.bar(
     tipo_conteo.sort_values("Cantidad"), x="Cantidad", y="Tipo incidente", orientation="h",
 )
@@ -75,19 +78,28 @@ st.divider()
 st.subheader("¿Qué servicios o proveedores concentran incidencias?")
 col_prov, col_serv = st.columns(2)
 
-proveedor_conteo = top_n_conteo(df_filtrado, "Proveedor")
+# Los rankings incluyen "Sin Informacion" (como el Top 5 del Colab), marcado en gris
+COLORES_REGISTRO = {"Con dato": "#1f77b4", "Sin informacion": "#9e9e9e"}
+
+proveedor_conteo = top_n_conteo(df_filtrado, "Proveedor", incluir_sin_info=True)
 fig_proveedor = px.bar(
     proveedor_conteo.sort_values("Cantidad"), x="Cantidad", y="Proveedor", orientation="h",
-    title="Top proveedores",
+    title="Top proveedores", color="Registro", color_discrete_map=COLORES_REGISTRO,
 )
+fig_proveedor.update_layout(showlegend=False)
 col_prov.plotly_chart(fig_proveedor, width='stretch')
 
-servicio_conteo = top_n_conteo(df_filtrado, "Servicio")
+servicio_conteo = top_n_conteo(df_filtrado, "Servicio", incluir_sin_info=True)
 fig_servicio = px.bar(
     servicio_conteo.sort_values("Cantidad"), x="Cantidad", y="Servicio", orientation="h",
-    title="Top servicios",
+    title="Top servicios", color="Registro", color_discrete_map=COLORES_REGISTRO,
 )
+fig_servicio.update_layout(showlegend=False)
 col_serv.plotly_chart(fig_servicio, width='stretch')
+st.caption(
+    f"En gris: registros sin dato ('Sin Informacion'), el {kpis['pct_sin_proveedor']:.1f}% en proveedor "
+    f"y el {kpis['pct_sin_servicio']:.1f}% en servicio. Dificultan identificar la causa raíz de esas incidencias."
+)
 
 st.divider()
 
@@ -105,7 +117,7 @@ st.divider()
 st.subheader("¿Qué impacto tienen estas situaciones?")
 col_donut, col_kpi = st.columns(2)
 
-impacto_conteo = df_filtrado["Impacto"].value_counts().rename_axis("Impacto").reset_index(name="Cantidad")
+impacto_conteo = incidencias_unicas(df_filtrado)["Impacto"].value_counts().rename_axis("Impacto").reset_index(name="Cantidad")
 fig_donut = px.pie(impacto_conteo, values="Cantidad", names="Impacto", hole=0.4)
 col_donut.plotly_chart(fig_donut, width='stretch')
 
