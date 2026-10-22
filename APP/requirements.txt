@@ -3,3 +3,5 @@ streamlit
 plotly
 ydata_profiling
 streamlit_ydata_profiling
+pywebview
+requests
