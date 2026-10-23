@@ -30,7 +30,7 @@ def carga_cruda():
 
 @st.cache_data
 def carga_limpia():
-    # Dataset tratado (nulos imputados): es el mismo que usa la pagina Preguntas
+    # Dataset tratado (nulos imputados): es el mismo que usa el Dashboard
     return cargar_datos_limpios()
 
 
@@ -120,8 +120,10 @@ with tab_visual:
     )
     st.caption(
         "'Sin Informacion' es el valor mas frecuente de ambas variables, lo que dificulta "
-        "encontrar la causa raiz de buena parte de las incidencias. En la pagina Preguntas "
-        "aparece en gris dentro de los rankings."
+        "encontrar la causa raiz de buena parte de las incidencias. Por eso en el Dashboard "
+        "se decidio no mostrar estos registros en los rankings de Top proveedores y Top "
+        "servicios (no aportaban informacion util para identificar responsables); el detalle "
+        "de cuantos registros faltan queda documentado aca."
     )
 
 # ---------- Calidad de datos ----------

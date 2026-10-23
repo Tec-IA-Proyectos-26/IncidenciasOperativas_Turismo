@@ -1,5 +1,5 @@
 """funciones de carga, comparacion y consulta sobre las bitacoras de incidencias.
-se usan desde las paginas Streamlit (Comparacion.py, Preguntas.py, Eda.py, Dashboard.py).
+se usan desde las paginas Streamlit (Comparacion.py, Eda.py, Dashboard.py).
 
 Criterio de conteo (el mismo que el Colab de la evidencia 2):
 - incidencias: se cuentan por ID_incidencia unico. Una incidencia con mas de un proveedor
