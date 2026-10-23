@@ -18,3 +18,7 @@ env/
 # Sistema
 .DS_Store
 Thumbs.db
+
+# Artefactos de PyInstaller (se regeneran con: pyinstaller TourOps.spec)
+build/
+dist/

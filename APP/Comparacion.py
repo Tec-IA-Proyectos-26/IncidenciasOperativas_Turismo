@@ -16,5 +16,11 @@ col2.metric("Filas Version2", resumen["filas_v2"])
 col1.write(f"**Columnas solo en Version1:** {resumen['columnas_solo_v1'] or 'ninguna'}")
 col2.write(f"**Columnas solo en Version2:** {resumen['columnas_solo_v2'] or 'ninguna'}")
 
+st.caption(
+    "La Version2 tiene 37 filas más. La diferencia se explica por la "
+    "separación en filas de las incidencias con más de un proveedor y por la "
+    "incorporación de los registros de octubre 2025."
+)
+
 st.subheader("Valores nulos por columna (comunes a ambas versiones)")
 st.dataframe(resumen["nulos_por_columna"], width='stretch')

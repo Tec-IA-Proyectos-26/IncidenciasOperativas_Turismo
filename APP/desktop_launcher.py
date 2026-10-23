@@ -1,18 +1,35 @@
 """Levanta la app Streamlit como servidor local y la muestra en una ventana nativa.
 
-Uso: python desktop_launcher.py
+Uso en desarrollo: python desktop_launcher.py
+Empaquetado con PyInstaller: ver TourOps.spec en la raiz del repo.
 """
 import subprocess
 import sys
 import time
 from pathlib import Path
 
-import webview
 import requests
+import webview
 
 PUERTO = 8501
 URL = f"http://localhost:{PUERTO}"
-APP_PY = Path(__file__).parent / "App.py"
+
+# Flag interno: cuando el .exe empaquetado se relanza a si mismo con este
+# argumento, en vez de abrir la ventana corre el servidor de Streamlit.
+FLAG_SERVIDOR = "--correr-streamlit"
+
+
+def _ruta_app_py() -> Path:
+    if getattr(sys, "frozen", False):
+        # El .exe empaquetado tiene al lado las carpetas APP/ y DATOS/, con la
+        # misma estructura que el repo (ver TourOps.spec), asi que etl_functions.py
+        # no necesita saber si esta empaquetado o no.
+        base = Path(getattr(sys, "_MEIPASS", Path(sys.executable).parent))
+        return base / "APP" / "App.py"
+    return Path(__file__).parent / "App.py"
+
+
+APP_PY = _ruta_app_py()
 
 
 def _esperar_servidor(timeout=30):
@@ -27,13 +44,41 @@ def _esperar_servidor(timeout=30):
     return False
 
 
-def main():
-    proceso = subprocess.Popen(
-        [
+def _correr_servidor_streamlit():
+    """Corre Streamlit en este mismo proceso (lo usa el subproceso relanzado)."""
+    import streamlit.web.cli as stcli
+
+    sys.argv = [
+        "streamlit", "run", str(APP_PY),
+        "--server.headless=true", f"--server.port={PUERTO}",
+        # Empaquetado, streamlit detecta un .git ancestro (el del propio repo,
+        # porque dist/ queda adentro) y se cree "modo desarrollo", lo que bloquea
+        # --server.port. Se fuerza a false para evitarlo.
+        "--global.developmentMode=false",
+    ]
+    stcli.main()
+
+
+def _lanzar_proceso_streamlit():
+    """Arranca 'streamlit run App.py' en un subproceso, empaquetado o no."""
+    if getattr(sys, "frozen", False):
+        # El propio .exe actua de interprete: se relanza a si mismo con el
+        # flag oculto para correr el servidor en vez de abrir la ventana de nuevo.
+        comando = [sys.executable, FLAG_SERVIDOR]
+    else:
+        comando = [
             sys.executable, "-m", "streamlit", "run", str(APP_PY),
             "--server.headless", "true", "--server.port", str(PUERTO),
-        ],
-    )
+        ]
+    return subprocess.Popen(comando)
+
+
+def main():
+    if FLAG_SERVIDOR in sys.argv:
+        _correr_servidor_streamlit()
+        return
+
+    proceso = _lanzar_proceso_streamlit()
     try:
         if not _esperar_servidor():
             raise RuntimeError("El servidor de Streamlit no respondio a tiempo.")
