@@ -1,7 +1,5 @@
-"""Levanta la app Streamlit como servidor local y la muestra en una ventana nativa.
+"""Levanta la app Streamlit como servidor local y la muestra en una ventana nativa
 
-Uso en desarrollo: python desktop_launcher.py
-Empaquetado con PyInstaller: ver TourOps.spec en la raiz del repo.
 """
 import subprocess
 import sys
@@ -15,7 +13,7 @@ PUERTO = 8501
 URL = f"http://localhost:{PUERTO}"
 
 # Flag interno: cuando el .exe empaquetado se relanza a si mismo con este
-# argumento, en vez de abrir la ventana corre el servidor de Streamlit.
+# argumento, en vez de abrir la ventana corre el servidor de Streamlit
 FLAG_SERVIDOR = "--correr-streamlit"
 
 
@@ -23,7 +21,7 @@ def _ruta_app_py() -> Path:
     if getattr(sys, "frozen", False):
         # El .exe empaquetado tiene al lado las carpetas APP/ y DATOS/, con la
         # misma estructura que el repo (ver TourOps.spec), asi que etl_functions.py
-        # no necesita saber si esta empaquetado o no.
+        # no necesita saber si esta empaquetado o no
         base = Path(getattr(sys, "_MEIPASS", Path(sys.executable).parent))
         return base / "APP" / "App.py"
     return Path(__file__).parent / "App.py"
@@ -45,7 +43,7 @@ def _esperar_servidor(timeout=30):
 
 
 def _correr_servidor_streamlit():
-    """Corre Streamlit en este mismo proceso (lo usa el subproceso relanzado)."""
+    """Corre Streamlit en este mismo proceso"""
     import streamlit.web.cli as stcli
 
     sys.argv = [
