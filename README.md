@@ -2,6 +2,8 @@
 
 Proyecto ABP orientado al análisis de incidencias operativas en una agencia de turismo receptiva.
 
+![Dashboard de la aplicación](APP/archivos/screen.jpg)
+
 ## Objetivo
 
 Analizar los registros de incidencias operativas para identificar patrones, problemas recurrentes y oportunidades de mejora en los procesos de la agencia.
@@ -12,6 +14,16 @@ Analizar los registros de incidencias operativas para identificar patrones, prob
 - Pandas
 - Google Colab
 - GitHub
+
+## Uso de la aplicación
+
+El menú lateral tiene 5 páginas:
+
+- **Bienvenidos**: introducción al proyecto.
+- **EDA**: análisis exploratorio de los datos crudos (version2), con pestañas de Visualizaciones, Calidad de datos, Proveedores y servicios, y un botón para generar el reporte automático completo (puede tardar unos segundos la primera vez).
+- **ETL**: reporte estático de cómo se procesó la bitácora.
+- **Comparación v1 vs v2**: diferencias entre las dos versiones de los datos (filas, columnas, nulos).
+- **Dashboard**: panel principal. Desde la barra lateral se filtra por fecha, tipo de incidencia, impacto, proveedor y servicio; los KPIs y los 4 gráficos (tipos más frecuentes, impacto, agencia/proveedor/servicio, evolución mensual) se actualizan automáticamente según los filtros elegidos
 
 ## Integrantes
 
@@ -69,3 +81,14 @@ Proyecto realizado por estudiantes del segundo año de la Tecnicatura en Ciencia
      ```
 
    Ambas opciones muestran las mismas páginas: Bienvenidos, EDA, ETL, Comparación v1 vs v2 y Dashboard.
+
+## Usar la app ya compilada (sin instalar nada)
+
+Si solo querés usar la app, sin tocar código ni instalar Python:
+
+1. Entrá a la sección [Releases](../../releases) de este repositorio.
+2. Descargá el `.zip` de la última versión.
+3. Descomprimilo en cualquier carpeta.
+4. Hacé doble click en `TourOps.exe` (adentro de la carpeta descomprimida).
+
+No hace falta instalar Python, ni ninguna librería, ni tener internet — todo (código, datos y la ventana de la app) ya viene empaquetado adentro.
