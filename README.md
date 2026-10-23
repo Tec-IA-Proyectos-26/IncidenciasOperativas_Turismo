@@ -34,8 +34,7 @@ Proyecto realizado por estudiantes del segundo año de la Tecnicatura en Ciencia
   - `Eda.py`: análisis exploratorio (perfilado automático) sobre `DATOS/bitacora_tempo25-26_version2.csv`.
   - `ETL.py`: reporte estático del procesamiento de datos.
   - `Comparacion.py`: compara version1 vs version2 (filas, columnas, nulos).
-  - `Preguntas.py`: dashboard de incidencias con filtros (fecha, tipo, impacto, proveedor, servicio) y gráficos.
-  - `Dashboard.py`: visualización de incidencias por agencia.
+  - `Dashboard.py`: dashboard de incidencias con filtros (fecha, tipo, impacto, proveedor, servicio) y gráficos (tipos, impacto, agencia/proveedor/servicio, evolución mensual).
   - `etl_functions.py`: funciones de carga y consulta reutilizadas por las páginas.
   - `desktop_launcher.py`: levanta la app como ventana de escritorio nativa (ver abajo).
 - `DATOS/`: bitácoras CSV fuente, utilizadas tanto por la app como por el análisis en Google Colab.
@@ -69,4 +68,4 @@ Proyecto realizado por estudiantes del segundo año de la Tecnicatura en Ciencia
      python APP/desktop_launcher.py
      ```
 
-   Ambas opciones muestran las mismas páginas: Bienvenidos, EDA, ETL, Comparación v1 vs v2, Preguntas y Dashboard.
+   Ambas opciones muestran las mismas páginas: Bienvenidos, EDA, ETL, Comparación v1 vs v2 y Dashboard.
